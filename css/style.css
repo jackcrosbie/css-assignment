@@ -83,7 +83,7 @@ li a {
   margin-top: 50px;
 }
 
-/* ---------------------------- button CSS */
+/* ---------------------------- button */
 
 button {
   background-color: #3882F6;
@@ -92,4 +92,58 @@ button {
   border-radius: 5px;
   padding: 5px;
   width: 100px;
+}
+
+/* ---------------------------- information container */
+
+.info-container {
+  height: 400px;
+  background-color: #F9FAF8;
+}
+
+.info-header-text {
+  text-align: center;
+  font: 36px #1F2937;
+  font-weight: 800;
+}
+
+/* ---------------------------- information images */
+
+#images-container {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+}
+
+.small-img {
+  height: 80px;
+  width: 80px;
+  border: 2px solid #3882F6;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.images {
+  width: 10%;
+  padding: 15px;
+}
+
+.images p {
+  font-size: 13px;
+  color: grey;
+  text-align: center;
+}
+
+/* ---------------------------- quote container */
+
+#quote-container {
+  background-color: #E5E7EB;
+  height: 200px;
+  padding: 15%;
+}
+
+#quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: light;
 }
