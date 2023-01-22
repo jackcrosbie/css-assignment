@@ -1,16 +1,70 @@
+/* ---------------------------- google font import */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-header {
+/* ---------------------------- general CSS */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+
+/* ---------------------------- header and logo CSS */
+
+.header-container {
   background-color: #1F2937;
   height: 300px;
 }
 
-header li {
+.top-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  width: 50%;
+  text-align: center;
+}
+
+.logo-text {
+  font-size: 24px;
+  color: #F9FAF8;
+}
+
+/* ---------------------------- navbar CSS */
+
+.navbar {
+  width: 50%;
+  justify-content: right;
+}
+
+nav li {
   font-size: 18px;
+  padding-right: 35px;
   list-style: none;
+  display: inline;
 }
 
 li a {
   text-decoration: none;
   color: #E5E7EB;
 }
+
+/* ---------------------------- hero container and text CSS */
+
+.hero-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero-text-box {
+  width: 50%;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+  text-align: center;
+}
+
