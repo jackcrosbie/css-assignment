@@ -13,7 +13,7 @@
 
 .header-container {
   background-color: #1F2937;
-  height: 300px;
+  height: 400px;
 }
 
 .top-header {
@@ -55,16 +55,35 @@ li a {
 .hero-container {
     display: flex;
     flex-direction: row;
+    margin-top: 50px;
 }
 
 .hero-text-box {
   width: 50%;
+  text-align: center;
 }
 
 .hero-main-text {
   font-size: 48px;
   font-weight: 800;
   color: #F9FAF8;
-  text-align: center;
 }
 
+.hero-image-container {
+  max-width: 50%;
+}
+
+.hero-image {
+  height: 200px;
+  width: 500px;
+}
+
+/* ---------------------------- button CSS */
+
+button {
+  background-color: #3882F6;
+  color: #F9FAF8;
+  border: 1px solid #F9FAF8;
+  border-radius: 5px;
+  padding: 5px;
+}
