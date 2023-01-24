@@ -36,6 +36,7 @@
 .navbar {
   width: 50%;
   justify-content: right;
+  margin-right: 5%;
 }
 
 nav li {
@@ -75,6 +76,7 @@ li a {
 
 .hero-image-container {
   width: 50%;
+  margin-right: 10%;
 }
 
 .hero-image {
@@ -139,11 +141,36 @@ button {
 #quote-container {
   background-color: #E5E7EB;
   height: 200px;
-  padding: 15%;
+  padding: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 #quote {
   font-size: 36px;
   color: #1F2937;
-  font-weight: light;
+  font-weight: 100;
+}
+
+#quote-author {
+  font-weight: bold;
+  text-align: right;
+  margin-right: 50px;
+}
+
+/* ---------------------------- call to action container */
+
+#action-container {
+  height: 300px;
+  background-color: #F9FAF8;
+}
+
+.sign-up-box {
+  background-color: #3882F6;
+  width: 80%;
+  height: 150px;
+  margin-left: 10%;
+  margin-top: 10%;
+  border: 1px solid #3882F6;
+  border-radius: 25px;
 }
