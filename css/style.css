@@ -4,8 +4,8 @@
 
 /* ---------------------------- general CSS */
 
-* {
-  font-family: "Roboto", sans-serif;
+body {
+  font-family: "Roboto", Arial, sans-serif;
 }
 
 
@@ -184,10 +184,10 @@ button {
 }
 
 .sign-up-box p {
-  display: inline-block;
-  vertical-align: middle;
   margin: 0px;
   margin-left: 10%;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .sign-up-box > button {
