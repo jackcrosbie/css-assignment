@@ -90,7 +90,7 @@ li a {
 button {
   background-color: #3882F6;
   color: #F9FAF8;
-  border: 1px solid #F9FAF8;
+  border: 2px solid #F9FAF8;
   border-radius: 5px;
   padding: 5px;
   width: 100px;
@@ -184,9 +184,14 @@ button {
 }
 
 .sign-up-box p {
+  display: inline-block;
+  vertical-align: middle;
   margin: 0px;
   margin-left: 10%;
-  
+}
+
+.sign-up-box > button {
+  margin-left: 150px;
 }
 
 /* ---------------------------- Footer CSS */
