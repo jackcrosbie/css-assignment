@@ -167,10 +167,32 @@ button {
 
 .sign-up-box {
   background-color: #3882F6;
+  color: #F9FAF8;
   width: 80%;
   height: 150px;
   margin-left: 10%;
   margin-top: 10%;
   border: 1px solid #3882F6;
   border-radius: 25px;
+}
+
+.sign-up-box h2 {
+  margin: 0px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.sign-up-box p {
+  margin: 0px;
+  margin-left: 10%;
+  
+}
+
+/* ---------------------------- Footer CSS */
+
+footer {
+  background-color: #1F2937;
+  height: 100px;
+  color: #F9FAF8;
+  text-align: center;
 }
