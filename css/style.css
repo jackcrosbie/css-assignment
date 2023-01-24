@@ -141,15 +141,16 @@ button {
 #quote-container {
   background-color: #E5E7EB;
   height: 200px;
-  padding: 5%;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 10%;
+  padding-left: 17.5%;
+  padding-right: 17.5%;
 }
 
 #quote {
   font-size: 36px;
   color: #1F2937;
   font-weight: 100;
+  margin: 0px;
 }
 
 #quote-author {
@@ -195,4 +196,8 @@ footer {
   height: 100px;
   color: #F9FAF8;
   text-align: center;
+}
+
+footer > p {
+  padding-top: 40px;
 }
